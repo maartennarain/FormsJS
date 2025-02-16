@@ -3,7 +3,7 @@ body {
 }
 
 form {
-    width: 20em;
+    width: 30em;
     padding: 5em;
     border: 1px solid #ccc;
     border-radius: 1em;
@@ -48,4 +48,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.validation-message {
+    color: red;
+    font-size: 0.8em;
+    display: none;
 }
